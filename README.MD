@@ -36,7 +36,6 @@ pip install -r requirements.txt
 
 ```bash
 git clone https://github.com/seu-usuario/nome-do-repo.git
-cd nome-do-repo
 ```
 
 ### 🔹 Passo 2 – Instalar as dependências
