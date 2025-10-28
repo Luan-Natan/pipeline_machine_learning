@@ -21,17 +21,7 @@ Criar, treinar e avaliar um modelo de classificação binária (0 = Feminino, 1 
 
 ---
 
-## 🧩 Dependências
-
-Instale as bibliotecas necessárias:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-### ☁️ Execução do Projeto
+## ☁️ Execução do Projeto
 🔹 Passo 1 – Clonar o repositório
 
 ```bash
@@ -43,7 +33,6 @@ git clone https://github.com/seu-usuario/nome-do-repo.git
 ```bash
 pip install -r requirements.txt
 ```
-
 
 ### 🔹 Passo 3 – Configurar credenciais da AWS
 Certifique-se de ter configurado o AWS CLI corretamente com:
@@ -62,4 +51,9 @@ Abra o notebook ou script Python que contém o código principal.
 
 ## 🎬 Demonstração Audiovisual 
 
-[Clique aqui para assistir à demonstração do projeto no Google Drive](https://drive.google.com/file/d/ID_DO_VIDEO/view)
+[Clique aqui para assistir à demonstração do projeto no Google Drive](https://drive.google.com/file/d/1rXv5gQ5XgmR6jZI8Oanh9GXU_hzcDpY6/view?usp=sharing)
+
+---
+
+👨‍💻 Autor
+Desenvolvido por Luan Natan de Sousa 🚀
