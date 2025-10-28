@@ -21,50 +21,6 @@ Criar, treinar e avaliar um modelo de classificação binária (0 = Feminino, 1 
 
 ---
 
-## ⚙️ Etapas Principais
-
-1. **Importação e análise do dataset**
-   - Leitura dos dados via URL.
-   - Exploração inicial e estatísticas descritivas.
-
-2. **Transformações no dataset**
-   - Aplicação de `np.log1p()` na coluna `Count` para suavizar outliers.
-   - Mapeamento do gênero para valores binários (`F → 0`, `M → 1`).
-   - Criação de novas features:
-     - `Name_len` → comprimento do nome.
-     - `vowel_count` → quantidade de vogais.
-     - `vowel_end` → se termina com vogal.
-   - Remoção da coluna `Name`.
-
-3. **Separação dos dados**
-   - Método Hold-Out:
-     - 80% treino
-     - 10% validação
-     - 10% teste
-
-4. **Treinamento com SageMaker**
-   - Envio dos datasets para o S3.
-   - Configuração do modelo XGBoost.
-   - Treinamento e deploy da instância no SageMaker.
-
-5. **Avaliação do modelo**
-   - Cálculo das métricas:
-     - Sensibilidade (TPR)
-     - Especificidade (TNR)
-     - Precisão
-     - Falsos Positivos / Negativos
-     - Acurácia
-     - Curva ROC e AUC
-   - Exibição da Matriz de Confusão.
-   - Geração do gráfico ROC-Curve.
-
-6. **Predição**
-   - Seleção de uma linha do dataset de teste.
-   - Envio da amostra para o endpoint do SageMaker.
-   - Obtenção da probabilidade e classificação final.
-
----
-
 ## 🧩 Dependências
 
 Instale as bibliotecas necessárias:
@@ -72,6 +28,8 @@ Instale as bibliotecas necessárias:
 ```bash
 pip install -r requirements.txt
 ```
+
+---
 
 ### ☁️ Execução do Projeto
 🔹 Passo 1 – Clonar o repositório
@@ -100,3 +58,9 @@ Abra o notebook ou script Python que contém o código principal.
 
 - Se estiver usando o AWS SageMaker Studio / Notebook Instance, basta carregar e executar célula por célula.
 - Se estiver rodando localmente, garanta que as credenciais AWS estão ativas e que o bucket informado no código realmente exista.
+
+---
+
+## 🎬 Demonstração Audiovisual 
+
+[Clique aqui para assistir à demonstração do projeto no Google Drive](https://drive.google.com/file/d/ID_DO_VIDEO/view)
