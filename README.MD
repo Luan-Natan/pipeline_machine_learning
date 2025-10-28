@@ -55,5 +55,5 @@ Abra o notebook ou script Python que contém o código principal.
 
 ---
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 Desenvolvido por Luan Natan de Sousa 🚀
